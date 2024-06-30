@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import CommentsList from './CommentsList';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           Learn Reac
         </a>
         <Message text="Hello World!" />
+        <CommentsList />
       </header>
     </div>
   );
@@ -30,3 +32,8 @@ function Message({ text }) {
 }
 
 export default App;
+
+//Создать компонент CommentsList, который отображает список комментариев.
+//Каждый комментарий должен иметь кнопку для его удаления.При нажатии на кнопку комментарий должен удаляться из списка.
+
+
