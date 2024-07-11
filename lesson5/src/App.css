@@ -21,6 +21,7 @@ div.dark {
 
 h1 {
 	padding: 10px;
+	color: rgb(2, 2, 132);
 }
 
 h1.dark {
@@ -33,10 +34,12 @@ button {
 	border-radius: 10px;
 	cursor: pointer;
 	width: 200px;
+	font-size: 20px;
+	transition: background-color 0.5s, color 0.5s;
 }
 
 button.light {
-	background-color: rgb(255, 255, 255);
+	background-color: rgb(136, 244, 132);
 	color: #000000;
 }
 
