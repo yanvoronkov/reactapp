@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div {
+	height: 100vh;
+	transition: background-color 0.5s;
+}
+
+div.light {
+	background-color: #fff;
+	color: #000;
+}
+
+div.dark {
+	background-color: #333;
+	color: #fff;
+}
+
+h1 {
+	padding: 10px;
+}
+
+h1.dark {
+	color: rgb(255, 255, 255);
+}
+
+button {
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	cursor: pointer;
+	width: 200px;
+}
+
+button.light {
+	background-color: rgb(255, 255, 255);
+	color: #000000;
+}
+
+button.dark {
+	background-color: #000000;
+	color: rgb(255, 255, 255);
+}
